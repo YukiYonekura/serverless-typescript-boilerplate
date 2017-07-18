@@ -1,0 +1,19 @@
+service: aws-nodejs
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+package:
+  excludeDevDependencies: true
+  exclude:
+    - .git/**
+    - src/**
+    - .vscode/**
+    - README.md
+    - yarn.lock
+    - ./*.json
+
+functions:
+  hello:
+    handler: build/handler.hello

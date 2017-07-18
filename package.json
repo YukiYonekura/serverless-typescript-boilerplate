@@ -1,0 +1,21 @@
+{
+  "name": "serverless-typescript-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "yarn run build && sls deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:YukiYonekura/serverless-typescript-boilerplate.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^0.0.14",
+    "@types/node": "^8.0.14",
+    "serverless": "^1.17.0",
+    "ts-loader": "^2.3.0",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  }
+}
