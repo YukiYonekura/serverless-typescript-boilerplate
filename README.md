@@ -2,7 +2,7 @@
 ## Prerequisites
 
 - [Serverless Framework v1.0+](https://serverless.com/)
-- [Nodejs v4.3+](https://nodejs.org/)
+- [Nodejs v10.x+](https://nodejs.org/)
 - [Setup your AWS credentials](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 
 ## Installation
@@ -20,11 +20,6 @@ $ cd serverless-typescript-boilerplate
 Install dependencies:
 ```
 $ yarn install
-```
-
-Build TypeScript:
-```
-$ yarn run build
 ```
 
 Deploy your functions:
